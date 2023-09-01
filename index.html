@@ -4,20 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabo</title>
+    <!-- CSS (Forma 3): Estilos en un archivo externo -->
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        /* CSS (Forma 2): Estilos Embebidos */
+        main {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+    
 </head>
 <body>
-    <header>
-        Aqui va el encabezado
+    <!-- CSS (Forma 1): style inline -->
+    <header style="background-color: red;">
+        <div class="logo">
+            <img id="logo" src="./images/logo.png" alt="Logo: Gabriel ">
+        </div>
+        <div class="menu-principal">
+            <a href="#">Categorias</a>
+            <a href="#">Biografia</a>
+            <a href="#">Premios</a>
+        </div>
     </header>
     <main>
         Aqui va el contenido principal
+        <!-- JavaScript (Forma 1): javascript inline -->
+        <button onclick="saluda()">Saludame</button>
+        <button onclick="saludaTerricolas()">Saluda Terricola</button>
     </main>
     <aside>
         Aqui van los Widgets de la pagina
+        <!-- JavaScript (Forma 2): Javascript Embebido -->
+        <script>
+            //alert( 'Nuevamente saludando' );
+
+            function saludaTerricolas() {
+                alert( 'Hola terricolas' );
+            } 
+        </script>
     </aside>
-    <footer>
+    <footer class="footer">
         Aqui van los Widgets de la pagina
         Aqui va el pie de pagina
     </footer>
+
+    <!-- JavaScript (Forma 3): Javascript Externo -->
+    <script src="./js/main.js"></script>
 </body>
 </html>
