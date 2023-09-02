@@ -24,9 +24,28 @@ a {
     font-weight: 500;
 }
 
-main {
-    background-color: orange;
+.main {
+    background-color: #b4c2dd;
     color: white;
+}
+
+.banner {
+    background-image: url( '../images/banner.jpg' );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 29vw;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 2.6rem;
+    margin: 0;
+    text-align: right;
+    text-transform: uppercase;
+    width: 25%;
 }
 
 footer {
