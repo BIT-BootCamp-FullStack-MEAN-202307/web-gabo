@@ -86,9 +86,46 @@ a {
     text-transform: uppercase;
 }
 
+.premios {
+    color: black;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 0 2rem 0;
+}
+
+.premios-title {
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+}
+
+.date {
+    border: 2px solid blue;
+    background: orange;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+td {
+    padding-left: 2rem;
+    font-size: .9rem;
+}
+
+.primer-premio {
+    height: 6rem;
+}
 
 
 footer {
     background-color: pink;
+}
+
+.copyright {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
 }
 
